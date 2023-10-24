@@ -1,0 +1,44 @@
+.main{
+  background-image: url(./BTState/glassesImage/background.jpg);
+  max-width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  /* background-color: rgba(17, 6, 6, 0.5)!important; */
+  filter: brightness(90%);
+}
+.bg-light{
+  background-color: rgba(17, 6, 6, 0.5)!important;
+}
+.model-left img,
+.model-right img{
+  width: 250px;
+  border: 2px solid black;
+}
+.col-lg-2{
+  padding: 20px 20px 10px;
+  border-radius: 5px;
+  
+}
+.col-lg-2 img{
+  height: 120px;
+  width: 170px;
+  border-radius: 10px;
+  padding: 0;
+}
+.card-title{
+  color: white;
+  text-align: center;
+}
+.glasses img{
+  position: absolute;
+  top: 176px;
+  width: 120px;
+  right: 314px;
+  opacity: 0.7;
+  border: none;
+}
+.footer{
+  padding: 0 150px 20px 150px;
+}
